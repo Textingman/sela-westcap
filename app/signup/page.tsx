@@ -229,7 +229,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-gray-900 focus:ring-gray-900 border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you agree to receive customer care text messages from West Cap. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
+                        By checking this box and submitting this form, you agree to receive customer care text messages from West Cap. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@usewestcap.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or use our services. All messages will be handled by West Cap.
                       </label>
                     </div>
                   </div>
