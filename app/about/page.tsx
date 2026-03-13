@@ -10,7 +10,7 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/Opt_Logo.png" alt="Optinizers" width={150} height={40} className="h-10 w-auto" />
+                <span className="text-xl font-bold text-gray-900">West Cap</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -40,7 +40,7 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-            About Optinizers
+            About West Cap
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're building the future of AI-powered business automation, helping companies streamline meeting scheduling and deliver exceptional customer care 24/7.
@@ -53,7 +53,7 @@ export default function AboutPage() {
         <div className="bg-white rounded-xl shadow-lg p-8 md:p-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
           <p className="text-lg text-gray-600 mb-4">
-            Optinizers was created to solve a critical problem: businesses waste countless hours on manual scheduling and struggle to provide round-the-clock customer support. We help you automate these processes with intelligent AI assistants.
+            West Cap was created to solve a critical problem: businesses waste countless hours on manual scheduling and struggle to provide round-the-clock customer support. We help you automate these processes with intelligent AI assistants.
           </p>
           <p className="text-lg text-gray-600 mb-8">
             Traditional scheduling methods are time-consuming and customer support is limited by business hours. We've built a platform that uses AI to handle appointments automatically and provide instant customer care 24/7.
@@ -61,7 +61,7 @@ export default function AboutPage() {
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">What We Do</h2>
           <p className="text-lg text-gray-600 mb-4">
-            Optinizers provides AI-powered automation tools that help businesses streamline operations and enhance customer experience. Our service includes:
+            West Cap provides AI-powered automation tools that help businesses streamline operations and enhance customer experience. Our service includes:
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-2">
             <li>AI-powered meeting scheduling and calendar management</li>
@@ -78,8 +78,8 @@ export default function AboutPage() {
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-8">Our Address</h2>
           <p className="text-lg text-gray-600">
-            388 Cordova St Suite 100C<br />
-            Pasadena, California 91011<br />United States of America
+            24 Executive Park, Ste 250<br />
+            Irvine, California 92614<br />United States of America
           </p>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default function AboutPage() {
               Ready to Boost Your Conversions?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust Optinizers to automate scheduling and deliver exceptional customer care with AI.
+              Join businesses that trust West Cap to automate scheduling and deliver exceptional customer care with AI.
             </p>
             <Link
               href="/signup"
@@ -109,7 +109,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Optinizers</h3>
+              <h3 className="text-xl font-bold mb-4">West Cap</h3>
               <p className="text-gray-400">
                 AI-powered meeting scheduling and customer care automation.
               </p>
@@ -147,17 +147,17 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@tryoptinizers.com
+                support@usewestcap.com
               </p>
               <p className="text-gray-400 mt-4">
-                388 Cordova St Suite 100C<br />
-                Pasadena, California 91011<br />
+                24 Executive Park, Ste 250<br />
+                Irvine, California 92614<br />
                 United States of America
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Optinizers. All rights reserved.</p>
+            <p>&copy; 2025 West Cap. All rights reserved.</p>
           </div>
         </div>
       </footer>

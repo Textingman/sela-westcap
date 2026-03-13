@@ -10,7 +10,7 @@ export default function PrivacyPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/Opt_Logo.png" alt="Optinizers" width={150} height={40} className="h-10 w-auto" />
+                <span className="text-xl font-bold text-gray-900">West Cap</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Introduction</h2>
           <p className="text-gray-600 mb-6">
-            Optinizers ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SMS verification service and website.
+            West Cap ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SMS verification service and website.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Information We Collect</h2>
@@ -150,7 +150,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@tryoptinizers.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@tryoptinizers.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@usewestcap.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@usewestcap.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -188,9 +188,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@tryoptinizers.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@tryoptinizers.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryoptinizers.com" className="text-[#d364a4] hover:text-[#c24d93]">support@tryoptinizers.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://tryoptinizers.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@usewestcap.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@usewestcap.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@usewestcap.com" className="text-[#d364a4] hover:text-[#c24d93]">support@usewestcap.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://usewestcap.com</a></p>
           </div>
 
         </div>
@@ -201,7 +201,7 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Optinizers</h3>
+              <h3 className="text-xl font-bold mb-4">West Cap</h3>
               <p className="text-gray-400">
                 Automated customer outreach that drives results.
               </p>
@@ -239,16 +239,16 @@ export default function PrivacyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@tryoptinizers.com
+                support@usewestcap.com
               </p>
               <p className="text-gray-400 mt-4">
-                388 Cordova St Suite 100C<br />
-                Pasadena, California 91011<br />United States of America
+                24 Executive Park, Ste 250<br />
+                Irvine, California 92614<br />United States of America
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Optinizers. All rights reserved.</p>
+            <p>&copy; 2025 West Cap. All rights reserved.</p>
           </div>
         </div>
       </footer>

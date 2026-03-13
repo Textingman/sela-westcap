@@ -44,7 +44,7 @@ export default function SignupPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <Image src="/Opt_Logo.png" alt="Optinizers" width={150} height={40} className="h-10 w-auto" />
+                <span className="text-xl font-bold text-gray-900">West Cap</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -75,7 +75,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
-              Get Started with Optinizers
+              Get Started with West Cap
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Fill out the form below and we'll get back to you within 24 hours to set up your AI-powered scheduling and customer care automation.
@@ -108,7 +108,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for Optinizers</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for West Cap</h2>
                 <p className="text-gray-600">
                   Complete the form below to start automating your meeting scheduling and customer care with AI.
                 </p>
@@ -229,7 +229,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-gray-900 focus:ring-gray-900 border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box, you agree to receive customer care text messages from Optinizers. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
+                        By checking this box, you agree to receive customer care text messages from West Cap. I understand I may opt out of SMS communication by replying 'STOP'. Text HELP for help. Message and Data rates may apply. Message frequency may vary. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
                       </label>
                     </div>
                   </div>
@@ -290,7 +290,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Optinizers</h3>
+              <h3 className="text-xl font-bold mb-4">West Cap</h3>
               <p className="text-gray-400">
                 AI-powered meeting scheduling and customer care automation.
               </p>
@@ -328,16 +328,17 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@tryoptinizers.com
+                support@usewestcap.com
               </p>
               <p className="text-gray-400 mt-4">
-                388 Cordova St Suite 100C<br />
-                Pasadena, California 91011<br />United States of America
+                24 Executive Park, Ste 250<br />
+                Irvine, California 92614<br />
+                United States of America
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Optinizers. All rights reserved.</p>
+            <p>&copy; 2025 West Cap. All rights reserved.</p>
           </div>
         </div>
       </footer>

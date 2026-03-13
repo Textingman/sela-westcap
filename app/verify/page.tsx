@@ -69,7 +69,7 @@ function VerifyPageContent() {
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
-          <Image src="/Opt_Logo.png" alt="Optinizers" width={180} height={50} className="h-12 w-auto" />
+          <span className="text-2xl font-bold text-gray-900">West Cap</span>
         </div>
 
         {/* Verification Content */}
@@ -120,7 +120,7 @@ function VerifyPageContent() {
         {/* Footer */}
         <div className="text-center pt-6 border-t border-gray-200">
           <p className="text-xs text-gray-500">
-            Secured by Optinizers
+            Secured by West Cap
           </p>
         </div>
       </div>

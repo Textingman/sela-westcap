@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Optinizers - AI Meeting Scheduling & Customer Care",
+  title: "West Cap - AI Meeting Scheduling & Customer Care",
   description: "Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience.",
 };
 
