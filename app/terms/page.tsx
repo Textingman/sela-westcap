@@ -57,14 +57,13 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            West Cap provides a carrier-compliant SMS verification platform that allows businesses to verify customer phone numbers through a secure, pass-through verification page. The Service includes:
+            West Cap provides an AI-powered customer care platform that helps businesses automate phone calls, appointment scheduling, and customer support. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-            <li>SMS verification landing pages</li>
-            <li>Phone number verification flow</li>
-            <li>Parameter preservation and redirect functionality</li>
-            <li>Multi-brand support with customizable styling</li>
-            <li>Carrier-compliant infrastructure</li>
+            <li>AI-powered outbound and inbound phone call automation</li>
+            <li>Appointment scheduling and calendar management</li>
+            <li>SMS customer care messaging and notifications</li>
+            <li>Carrier-compliant SMS infrastructure</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Account Registration and Security</h2>
