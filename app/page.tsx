@@ -96,7 +96,7 @@ export default function HomePage() {
               Drive Phone Calls
             </h3>
             <p className="text-gray-600 text-center">
-              Convert leads into live phone conversations with AI-driven outreach that prompts customers to call at the right moment.
+              Convert prospects into live phone conversations with AI-driven outreach that prompts customers to call at the right moment.
             </p>
           </div>
 
@@ -153,7 +153,7 @@ export default function HomePage() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Phone Call Generation</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Turn digital leads into live phone conversations. Our AI identifies the best moment to prompt a call, sends click-to-call messages, and routes inbound calls to the right team member — maximizing your contact rate.
+                  Turn digital contacts into live phone conversations. Our AI identifies the best moment to prompt a call, sends click-to-call messages, and routes inbound calls to the right team member — maximizing your contact rate.
                 </p>
               </div>
 

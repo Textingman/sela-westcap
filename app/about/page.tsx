@@ -65,7 +65,7 @@ export default function AboutPage() {
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-2">
             <li>AI-powered meeting scheduling and calendar management</li>
-            <li>Phone call generation — turning digital leads into live conversations</li>
+            <li>Phone call generation — turning digital contacts into live conversations</li>
             <li>Click-to-call messaging and inbound call routing</li>
             <li>24/7 automated customer support and inquiry handling</li>
             <li>Intelligent appointment reminders and follow-ups</li>
