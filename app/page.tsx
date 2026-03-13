@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle, Zap, Users } from 'lucide-react';
+import { CheckCircle, Zap, Users, Phone } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -41,11 +41,11 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
-            AI-Powered Meeting Scheduling
-            <span className="block text-gray-900">& Customer Care Support</span>
+            AI-Powered Meeting Scheduling,
+            <span className="block text-gray-900">Phone Calls & Customer Care</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Automate appointment scheduling and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience with seamless automation.
+            Automate appointment scheduling, drive inbound phone calls, and provide 24/7 customer support with intelligent AI assistants. Transform your customer experience with seamless automation.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
@@ -69,11 +69,11 @@ export default function HomePage() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900">Why Choose West Cap?</h2>
           <p className="mt-4 text-xl text-gray-600">
-            Trusted by businesses to automate scheduling and deliver exceptional customer care
+            Trusted by businesses to automate scheduling, drive phone calls, and deliver exceptional customer care
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
@@ -90,6 +90,19 @@ export default function HomePage() {
           {/* Feature 2 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
+              <Phone className="w-12 h-12 text-gray-900" />
+            </div>
+            <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
+              Drive Phone Calls
+            </h3>
+            <p className="text-gray-600 text-center">
+              Convert leads into live phone conversations with AI-driven outreach that prompts customers to call at the right moment.
+            </p>
+          </div>
+
+          {/* Feature 3 */}
+          <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
+            <div className="flex justify-center mb-4">
               <Zap className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
@@ -100,7 +113,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Feature 3 */}
+          {/* Feature 4 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
               <Users className="w-12 h-12 text-gray-900" />
@@ -121,7 +134,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900">How It Works</h2>
             <p className="mt-4 text-xl text-gray-600">
-              AI-powered automation that transforms customer interactions
+              AI-powered automation that transforms customer interactions and drives real conversations
             </p>
           </div>
 
@@ -138,13 +151,21 @@ export default function HomePage() {
 
               {/* Solution 2 */}
               <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Phone Call Generation</h3>
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  Turn digital leads into live phone conversations. Our AI identifies the best moment to prompt a call, sends click-to-call messages, and routes inbound calls to the right team member — maximizing your contact rate.
+                </p>
+              </div>
+
+              {/* Solution 3 */}
+              <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Automated Customer Care</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   AI-powered support agents that understand customer questions, provide instant answers, and escalate complex issues to human agents when needed.
                 </p>
               </div>
 
-              {/* Solution 3 */}
+              {/* Solution 4 */}
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Reminders & Follow-ups</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
@@ -172,10 +193,10 @@ export default function HomePage() {
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Transform Customer Conversations?
+              Ready to Drive More Calls & Conversations?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust West Cap to automate scheduling and drive meaningful customer conversations with AI.
+              Join businesses that trust West Cap to automate scheduling, generate phone calls, and deliver exceptional customer care with AI.
             </p>
             <Link
               href="/signup"
@@ -194,7 +215,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-xl font-bold mb-4">West Cap</h3>
               <p className="text-gray-400">
-                AI-powered meeting scheduling and customer care automation.
+                AI-powered scheduling, phone call generation, and customer care automation.
               </p>
             </div>
             <div>

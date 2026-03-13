@@ -43,7 +43,7 @@ export default function AboutPage() {
             About West Cap
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're building the future of AI-powered business automation, helping companies streamline meeting scheduling and deliver exceptional customer care 24/7.
+            We're building the future of AI-powered business automation, helping companies streamline meeting scheduling, drive inbound phone calls, and deliver exceptional customer care 24/7.
           </p>
         </div>
       </section>
@@ -65,6 +65,8 @@ export default function AboutPage() {
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-2">
             <li>AI-powered meeting scheduling and calendar management</li>
+            <li>Phone call generation — turning digital leads into live conversations</li>
+            <li>Click-to-call messaging and inbound call routing</li>
             <li>24/7 automated customer support and inquiry handling</li>
             <li>Intelligent appointment reminders and follow-ups</li>
             <li>Natural language processing for customer interactions</li>
